@@ -4,7 +4,10 @@ channels:
   - nodefaults
 dependencies:
   - python>=3
-  - pycalphad
+  - pycalphad==0.8.2
   - scheil
   - espei
+  - pip
+  - pip:
+    - jupyter_offlinenotebook
 
